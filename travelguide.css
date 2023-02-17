@@ -1,0 +1,80 @@
+.header{
+    background: url('images/vector-travel-background.jpg') no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.col-6{
+    color: rgb(225, 201, 188);
+    font-size: 30px;
+    line-height: 100px;
+
+}
+.col-6 h3{
+    font-family: 'Amita', cursive;
+}
+.col-6 span{
+    font-family: 'Dancing Script', cursive;
+
+}
+.col-6 h4{
+    font-family: 'Shadows Into Light', cursive;
+}
+header button{
+   background-color: rgb(184, 128, 128);
+   border-radius: 5px;
+   color: white;
+}
+header div button:hover{
+    color: rgb(124, 40, 15);
+    background-color: rgb(209, 209, 174);
+}
+section h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.overlay-div {
+    width: 100%;
+    background: rgb(0, 204, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    height: 0;
+    border-radius: 10px;
+}
+.image-inner{
+    position: relative;
+    border-radius: 10px;
+}
+
+.image-outer{
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 16px;
+}
+#review ul li{
+    list-style: none;
+    color: goldenrod;
+}
+footer #aboutus li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 20px;
+}
+#aboutus li:hover{
+    color: rgb(216, 22, 4);
+}
+footer #brands li{
+    list-style: none;
+    padding: 5px;
+}
+#brands li:hover{
+    color: rgb(153, 36, 55);
+}
