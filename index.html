@@ -10,9 +10,13 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Amita&family=Babylonica&family=Dancing+Script&family=Explora&family=Gentium+Book+Basic&family=Itim&family=Josefin+Sans:ital,wght@0,700;1,300;1,500&family=Monoton&family=Montserrat&family=Roboto+Mono&family=Sassy+Frass&family=Shadows+Into+Light&family=Tangerine:wght@400;700&display=swap"
-        rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Amita&family=Babylonica&family=Dancing+Script&family=Explora&family=Freehand&family=Gentium+Book+Basic&family=Great+Vibes&family=Itim&family=Josefin+Sans:ital,wght@0,700;1,300;1,500&family=Julee&family=Marck+Script&family=Monoton&family=Montserrat&family=Rampart+One&family=Roboto+Mono&family=Sacramento&family=Sassy+Frass&family=Shadows+Into+Light&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="travelguide.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -25,8 +29,7 @@
                 <div class="col-md-12">
                     <nav  class="navbar navbar-expand-lg navbar-light light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"
-                                style="font-family: 'Babylonica', cursive; font-size: 70px; color: rgb(226, 208, 76);">we
+                            <a class="navbar-brand" id="weego" href="#">we
                                 Go!</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,32 +39,25 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#container"
-                                            style="font-family: 'Gentium Book Basic', serif; color: white;">Home</a>
+                                        <a class="nav-link active"  id="nav" aria-current="page" href="#container">Home</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link active"  id="nav" href="#Popularpackages">Popularpackages</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#Popularpackages"
-                                            style="font-family: 'Gentium Book Basic', serif; color: white;">Popularpackages</a>
+                                        <a class="nav-link active"  id="nav" href="#Specialpackages">Specialpackages</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#Specialpackages"
-                                            style="font-family: 'Gentium Book Basic', serif; color: white;">Specialpackages</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link active" href="#Religioustourism"
-                                          style="font-family: 'Gentium Book Basic', serif; color: white;">Religioustourism</a>
-                                  </li>
+                                      <a class="nav-link active"  id="nav" href="#Religioustourism">Religioustourism</a>
+                                  </li> -->
                                   <li class="nav-item">
-                                    <a class="nav-link active" href="#Ourservices"
-                                        style="font-family: 'Gentium Book Basic', serif; color: white;">Ourservices</a>
+                                    <a class="nav-link active"  id="nav" href="#Ourservices">Ourservices</a>
                                 </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#Reviews"
-                                            style="font-family: 'Gentium Book Basic', serif; color: white;">Reviews</a>
+                                        <a class="nav-link active"  id="nav" href="#Reviews">Reviews</a>
                                     </li> 
                                     <li class="nav-item">
-                                      <a class="nav-link active" href="#AboutUs"
-                                          style="font-family: 'Gentium Book Basic', serif; color: white;">AboutUs</a>
+                                      <a class="nav-link active" id="nav" href="#AboutUs">About Us</a>
                                   </li>                                  
                                 </ul>
                         </div>
@@ -69,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div id="quote" class="row">
             <div class="col-6"></div>
             <div class="col-6">
                 <h3>The journey</h3>
@@ -78,62 +74,64 @@
 <span>single step...</span>
             </div>
         </div>
-        <div class="text-center">         
-                <button class="mt-5 ms-5"><a style="text-decoration: none; color: whitesmoke;" href="#">ENQUIRY</a></button>
+        <div class="text-center" id="enq">         
+                <button class="mt-5 ms-5"><a href="#">ENQUIRY</a></button>
             </div>                               
     </header>
     <section>
         <section id="Popularpackages" class="container mt-5">
-            <h1 style="color: rgb(161, 110, 110); font-family: 'Dancing Script', cursive;">Popular Packages</h1>
-    <div class="row mt-5">
-       <div class="col-lg">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="https://th.bing.com/th/id/OIP.P1NoAzln93u5Hn_q66oI2wHaEo?pid=ImgDet&rs=1" class="card-img-top" alt="paris">
-                    <div class="card-body">
-                      <h5 class="card-title">Paris</h5>
-                      <p class="card-text">Paris, city and capital of France, situated in the north-central part of the country. Notre-Dame stands in the heart of Paris on the Île-de-la-Cité next to the Latin Quarter.</p>
-                      <a href="#" class="btn btn-primary">$10,000</a>
+            <h1 id="pop-packages">Popular Packages</h1>
+    <div class="row mt-5" >
+    
+         <div class="col-lg cards">
+                  <div class="card h-100">
+                      <img src="https://th.bing.com/th/id/OIP.P1NoAzln93u5Hn_q66oI2wHaEo?pid=ImgDet&rs=1" class="card-img-top" alt="paris">
+                      <div class="card-body">
+                        <h5 class="card-title">Paris</h5>
+                        <p class="card-text">Paris, city and capital of France, situated in the north-central part of the country. Notre-Dame stands in the heart of Paris on the Île-de-la-Cité next to the Latin Quarter.</p>
+                       <button> <a href="#">Get it</a></button>
+                      </div>
                     </div>
                   </div>
-</div>
-<div class="col-lg">
-                  <div class="card h-100" style="width: 18rem;">
+     
+               <div class="col-lg cards">
+                  <div class="card h-100">
                     <img src="https://wallpapersmug.com/download/3840x2160/ba4a37/maldives-resort-aerial-view-island-sea.jpg" class="card-img-top" alt="maldives">
                     <div class="card-body">
                       <h5 class="card-title">Maldives</h5>
                       <p class="card-text">The Maldives officially the Republic of Maldives, is a South Asian country, located in the Indian Ocean, situated in the Arabian Sea. It lies southwest of Sri Lanka and India.</p>
-                      <a href="#" class="btn btn-primary">$25,000</a>
+                      <button> <a href="#">Get it</a></button>
                     </div>
                   </div>
                   </div>
-                  <div class="col-lg">
-                  <div class="card h-100" style="width: 18rem;">
+                  <div class="col-lg cards">
+                  <div class="card h-100">
                     <img src="https://fthmb.tqn.com/7FeQa2h__ZCnCxN3lLX1ySww0zc=/1280x854/filters:fill(auto,1)/476752317-56a3e1573df78cf7727faad1.jpg" class="card-img-top" alt="londonbidge">
                     <div class="card-body">
                       <h5 class="card-title">London Bridge</h5>
                       <p class="card-text">London Bridge have spanned the River Thames between the City of London and Southwark, in central London, is a box girder bridge built from concrete and steel.</p>
-                      <a href="#" class="btn btn-primary">$30,000</a>
+                      <button> <a href="#">Get it</a></button>
                     </div>
                   </div>
                   </div>
-                  <div class="col-lg">
-                  <div class="card h-100" style="width: 18rem;">
+                  <div class="col-lg cards">
+                  <div class="card h-100">
                     <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2814,w_4241,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/shutterstock_400068991_qpukq2.jpg" class="card-img-top" alt="tajmahal">
                     <div class="card-body">
                       <h5 class="card-title">Taj Mahal</h5>
-                      <p class="card-text">The Taj Mahal is an ivory-white marble mausoleum on the bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal</p>
-                      <a href="#" class="btn btn-primary">$10,000</a>
+                      <p class="card-text">The Taj Mahal is an ivory-white marble mausoleum on the bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan.</p>
+                      <button> <a href="#">Get it</a></button>
                     </div>
                   </div>
                   </div>
     </div >
 </section>    
-        <div class="container text-center">          
-                    <button style="background-color: rgb(222, 222, 192); border-radius: 10px;" class="mt-5"><a  style="color: rgb(83, 83, 27); text-decoration: none;" href="#">More Details</a>
-
-                    </button>                                         
-            <h1 id="Specialpackages" style="font-family: 'Monoton', cursive; color: rgb(128, 96, 58);">Special Packages</h1>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="container text-center" id="specialpackages">          
+          <div class="text-center" id="moredetails">         
+            <button class="mt-5 ms-5"><a href="#">MORE DETAILS</a></button>
+        </div>                                   
+            <h1 id="Specialpackages">Special Packages</h1>
+            <div id="carouselExampleInterval" class="carousel slide mt-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="100">
                     <img style="height: 700px;" src="https://thailandinsider.com/wp-content/uploads/2019/02/Honeymoon-00001.jpg" class="d-block w-100" alt="honeymoon">
@@ -172,58 +170,47 @@
             </div>
           </div>
             </section>
-             <section id="Religioustourism" class="grid-block mb-5">
-                <div class="container">
-                <h1  style="font-family: 'Shadows Into Light', cursive; font-weight: bold; color: rgb(147, 96, 18);" class="mt-5">Religious Tourism</h1>
-                <div class="row">
-                    <div class="col-md-3">
-                      <div class="image-outer">
-                        <div class="image-inner">
-                        <img class="img-fluid" src="https://www.explorechurches.org/sites/default/files/styles/hero_image/public/2018-10/GreaterLondonCITYOFLONDONTempleChurch(churchdays)2.jpg?itok=Vaq0k1Ob" alt="churches"  style="height: 200px;">
-                        <div class="overlay-div">
-                         
+            <section id="Religioustourism" class="container mt-5">
+              <h1>Religious Tourism</h1>
+      <!-- <div class="row mt-5"> -->
+              <div class="row mt-5" >
+                 <div  class="card col-lg ">
+                    <!-- <div style="width: 18rem;"> -->
+                        <img src="./images/church.jpg" class="imgs" alt="church">
+                      <div class="intro">
+                        <a href="#"><h4>Know more</h4></a>
+                         <p>Tour to the various Churches all over the world</p>
+                      </div >
+                      </div> 
+                   <div class=" card col-lg ">
+                      <!-- <div  style="width: 18rem;"> -->
+                        <img src="./images/temple.jpg" class="imgs" alt="temple">
+                       <div class="intro">
+                        <a href="#"><h4>Know more</h4></a>
+                          <p>Tour to the famous ancient Temples all over the world</p>
+                       </div>
+                      </div>                    
+                      <div class="card col-lg">
+                      <!-- <div style="width: 18rem;"> -->
+                        <img src="./images/buddha.jpg" class="imgs" alt="buddha">
+                        <div class="intro">
+                          <a href="#"><h4>Know more</h4></a>
+                          <p>Tour to the top Buddha temples all over the world</p>
                         </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="image-outer">
-                        <div class="image-inner">
-                        <img class="img-fluid" src="https://www.tamilnadutourism.com/images/trichy/card/sri-ranganathaswamy-temple-trichy.jpg" alt="temple"  style="height: 200px;">
-                        <div class="overlay-div">
-                       
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="image-outer">
-                        <div class="image-inner">
-                    <img class="img-fluid" src="https://th.bing.com/th/id/R.20e04dd8b4e117baf05e0c091a7f8040?rik=ekdrH5mzZZc%2bEQ&riu=http%3a%2f%2fbritishmuslim-magazine.com%2fwp-content%2fuploads%2f2014%2f09%2fbhopal-masjid.jpg&ehk=iv%2fvUCO3NMei6pimHhaRT6exILToKBo5v65mwkixBCo%3d&risl=&pid=ImgRaw&r=0" alt="mosques"  style="height: 200px;">
-                    <div class="overlay-div">
-                   
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="image-outer">
-                        <div class="image-inner"> 
-                      <img class="img-fluid" src="https://travelisto.com/wp-content/uploads/2018/02/Buddha-Temple-Sri-lanka-scaled.jpg"  alt="buddha"  style="height: 200px;">
-                      <div class="overlay-div">
-                      
+                      </div>                    
+                      <div class="card col-lg">
+                      <!-- <div  style="width: 18rem;"> -->
+                        <img src="./images/mosque.jpg" class="imgs" alt="mosque">
+                       <div class="intro">
+                          <a href="#"><h4>Know more</h4></a>
+                          <p>Tour to the various Mosques all over the world</p>
+                       </div>
                       </div>
-                      </div>
-                      </div>
-                      </div>
-                        <hr class="mt-5">
-                    </div>
-</div>
-                </div>
-             </section>
-    </section>
+              </div>                        
+  </section>  
+    
              <div id="Ourservices" class="container text-center mt-5">             
-             <h1 style="font-family: 'Sassy Frass', cursive; font-weight: bold; color: rgb(213, 146, 64);font-size: 65px;">Our services</h1>
+             <h1>Our services</h1>
              <h3 style="color: rgb(65, 37, 4); text-align: center; font-family: 'Tangerine', cursive; font-size: 35px; font-weight: bold;">We make your journey unforgettable</h3>                         
            <div class="row text-center">              
                     <div class="col-4">
@@ -258,11 +245,11 @@
    </section>
 <section id="Reviews">
        <div id="review" class="container mt-5">
-        <h1 style="font-family: 'Amita', cursive; color: rgb(254, 170, 66);">REVIEWS</h1>
+        <h1>Reviews</h1>
         <div class="row">
           <div class="col-4"></div>
           <div class="col-4">
-        <div id="carouselExample" class="carousel slide w-100">
+        <div id="carouselExample" class="carousel slide w-100 mt-3" >
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img  src="https://blog.brainbalancecenters.com/hubfs/715783D0-7093-40B9-981C-9566E0F536E8.jpeg"  style="height: 300px;" class="d-block w-100" alt="fam">

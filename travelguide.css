@@ -5,60 +5,205 @@
     width: 100%;
     background-size: cover;
 }
+#pop-packages{
+    font-family: 'Marck Script', cursive;
+      color: rgb(109, 59, 24);
+}
+#pop-packages:hover{
+    color: rgb(160, 119, 90);
+}
 .col-6{
     color: rgb(225, 201, 188);
     font-size: 30px;
     line-height: 100px;
 
 }
+#weego{
+    font-family: 'Freehand', cursive;
+   font-size: 70px; 
+  color: rgb(218, 172, 172);
+}
+#weego:hover{
+    color: rgb(171, 111, 111);
+}
+.navbar-nav a:hover{
+color: rgb(215, 212, 212);
+}
+#Popularpackages .card{
+    width: 18rem;
+}
+#Popularpackages h5:hover{
+color: rgb(161, 45, 12);
+/* transition: 3s;
+transform: rotateX('35deg'); */
+}
+#Popularpackages .cards:hover{
+    transform: rotate(10deg);
+}
+#Popularpackages button{
+    background-color:#BA9A8E;
+    border: none;
+border-radius: 4px;
+}
+#Popularpackages a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+.card-img-top{
+    height: 200px;
+}
 .col-6 h3{
-    font-family: 'Amita', cursive;
+    font-family: 'Rampart One', cursive;
+    font-size: 60px;
 }
 .col-6 span{
     font-family: 'Dancing Script', cursive;
+    font-size: 45px;
 
 }
 .col-6 h4{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Rampart One', cursive;
+    font-size: 45px;
 }
-header button{
-   background-color: rgb(184, 128, 128);
-   border-radius: 5px;
+#nav{
+    font-family: 'Gentium Book Basic', serif; 
+    color: white;
+}
+#nav:hover{
+color: rgb(190, 186, 186);
+
+}
+#Specialpackages{
+    margin-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(159, 80, 24)
+}
+#Specialpackages:hover{
+    color: rgb(209, 140, 90)
+}
+#enq button{
+  border-radius: 5px;
+ border: none;
    color: white;
 }
-header div button:hover{
-    color: rgb(124, 40, 15);
+   #enq a{
+text-decoration: none;
+color: rgb(248, 143, 16);
+   }
+   #enq a:hover{
+    color: brown;
+   }
+#enq button:hover{
+ 
     background-color: rgb(209, 209, 174);
+
+}
+#moredetails button{
+   /* color: rgb(163, 102, 102); */
+    
+    border: none;
+}
+#moredetails button{
+border-radius: 5px;
+border: none;
+color: red;
+}
+#moredetails a{
+    text-decoration: none;
+    color: rgb(212, 40, 40);
+}
+#moredetails a:hover{
+    color: rgb(244, 117, 117);
 }
 section h1{
     text-align: center;
     margin-top: 10px;
 }
-.overlay-div {
-    width: 100%;
-    background: rgb(0, 204, 255, 0.8);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
-    height: 0;
-    border-radius: 10px;
+#Religioustourism h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(161, 110, 110);
 }
-.image-inner{
-    position: relative;
-    border-radius: 10px;
+#Religioustourism h1:hover{
+    color: rgb(188, 168, 168);
+}
+.imgs{
+    height: 300px;
+    width: 100%;
+    box-shadow: 5px 5px 20px black;
+    /* border-radius: 20px; */
+}
+#Religioustourism .card{
+    margin: 20px; 
+   border: none;
+}
+.intro{
+   
+    height: 70px;
+    width: 266px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27,27,27,.5);
+    color: white;
+    bottom: 0px;
+    transition: .5s;
+}
+.intro h4{
+   margin: 10px; 
+   font-size: 30px;
+   font-family: 'Julee', cursive;
+}
+.intro p{
+    font-size: 31px;
+    margin: 20px;
+    font-family: 'Sacramento', cursive;
+    visibility: hidden;
+    opacity: 0;
 }
 
-.image-outer{
-    background: #fff;
-    border: 1px solid #000;
-    border-radius: 10px;
-    padding: 16px;
+#Religioustourism a{
+    text-decoration: none;
+    color: white;
 }
+#Religioustourism .card:hover{
+cursor: pointer;
+}
+#Religioustourism .card:hover .intro{
+height: 200px;
+bottom: 0px;
+background: rgb(203, 220, 203,.5)
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+    color: black;
+ 
+}
+.imgs:hover{
+transform: scale(1.1) rotate(-3deg);
+}
+#Ourservices a{
+color: brown;
+}
+#Ourservices h1{
+ margin-top: 60px;  
+ font-family: 'Great Vibes', cursive; 
+ font-size: 50px;
+ color: rgb(108, 28, 28);
+}
+#Ourservices h1:hover{
+    color: rgb(180, 111, 111);
+}
+#review h1{
+    color: rgb(144, 57, 57);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+#review h1:hover{
+    color: rgb(164, 120, 120);  
+}
+
 #review ul li{
     list-style: none;
     color: goldenrod;
@@ -77,4 +222,16 @@ footer #brands li{
 }
 #brands li:hover{
     color: rgb(153, 36, 55);
+}
+#quote h3:hover{
+color: rgb(150, 90, 90);
+}
+#quote span:hover{
+    color: rgb(138, 88, 88);
+}
+#quote h4:hover{
+    color: rgb(150, 96, 96);
+}
+html{
+    scroll-behavior: smooth;
 }
